@@ -59,7 +59,7 @@ function renderHome() {
     <section class="hero">
         <div class="hero-container">
             <div class="hero-text">
-                <div class="hero-badge">🚀 Platform Belajar #1 Indonesia</div>
+                <div class="hero-badge">🚀 Platform Belajar Python untuk pemula</div>
                 <h1 class="hero-title">Belajar <span class="highlight">Python</span> dari Nol Sampai Mahir</h1>
                 <p class="hero-desc">Kuasai Python dengan materi terstruktur, latihan interaktif, quiz, dan proyek nyata. Dirancang untuk pemula hingga tingkat lanjut.</p>
                 <div class="hero-actions">
@@ -337,6 +337,7 @@ function renderTentang() {
         <h1>Tentang <span style="color:var(--primary)">Selalu Ngoding</span></h1>
         <p>Platform edukasi Python terlengkap yang dirancang untuk kenyamanan belajar dan kemudahan memahami konsep pemrograman.</p>
     </div>
+    
     <section class="section section-alt">
         <div class="section-inner">
             <div class="features-grid">
@@ -346,6 +347,39 @@ function renderTentang() {
                 <div class="feature-card fade-in"><div class="f-icon">🚀</div><h3>Proyek Nyata</h3><p>Bangun proyek untuk portfolio profesional</p></div>
                 <div class="feature-card fade-in"><div class="f-icon">📊</div><h3>Tracking Progress</h3><p>Pantau kemajuan belajar dengan local storage</p></div>
                 <div class="feature-card fade-in"><div class="f-icon">🌙</div><h3>Dark Mode</h3><p>Mode gelap untuk kenyamanan belajar di malam hari</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-inner">
+            <div class="section-header fade-in">
+                <h2>👋 Kenalan dengan Kreator</h2>
+                <p>Di balik layar Selalu Ngoding</p>
+            </div>
+            
+            <div class="creator-profile fade-in" style="display:flex; flex-wrap:wrap; gap:40px; align-items:center; background:var(--bg-card); padding:40px; border-radius:var(--radius-xl); border:1px solid var(--border); box-shadow:var(--shadow-md);">
+                
+                <!-- Profil Singkat -->
+                <div style="flex:1; min-width:280px; text-align:center;">
+                    <img src="assets/creator.jpg" alt="Foto Kreator" style="width:200px; height:200px; object-fit:cover; border-radius:50%; margin:0 auto 20px; border:4px solid var(--primary); box-shadow:var(--shadow);">
+                    <h3 style="font-size:1.6rem; font-weight:800; margin-bottom:4px;">Nalar Qaer</h3>
+                    <p style="color:var(--primary); font-weight:600; margin-bottom:16px;">Founder & Developer</p>
+                    <p style="color:var(--text-secondary); font-size:1rem; line-height:1.7; text-align:left;">Halo! Saya membuat platform ini khusus untuk membantu teman-teman pemula yang ingin terjun ke dunia pemrograman Python tanpa rasa takut. Semoga platform ini bisa menjadi langkah awal kesuksesan Anda di dunia IT!</p>
+                </div>
+
+                <!-- Info TikTok -->
+                <div style="flex:1; min-width:280px; text-align:center;">
+                    <div style="background:var(--bg-secondary); padding:24px; border-radius:var(--radius-lg); border:1px solid var(--border);">
+                        <h4 style="margin-bottom:16px; font-weight:700; font-size:1.2rem;">Dukung Kami di TikTok! 🖤</h4>
+                        <img src="assets/tiktok.jpg" alt="TikTok Selalu Ngoding" style="width:100%; max-width:280px; border-radius:12px; margin:0 auto 20px; box-shadow:var(--shadow-md);">
+                        <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:20px;">Dapatkan konten edukasi coding gratis dan seru setiap harinya.</p>
+                        <a href="https://www.tiktok.com/@nalarqaer89" target="_blank" class="btn btn-primary" style="width:100%; justify-content:center;">
+                            ▶ Ikuti @nalarqaer89
+                        </a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>`;
